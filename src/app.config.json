@@ -1,0 +1,19 @@
+{
+  "title": "Resistance Survey",
+  "description": "Resistance Survey",
+  "ceviz": {
+    "apiNamespace": "api",
+    "hosts": {
+      "localhost": {
+        "env": "development",
+        "port": 7045,
+        "protocol": "https"
+      },
+      "secure.mypropertyvault.com": {
+        "env": "qa",
+        "port": 443,
+        "protocol": "https"
+      }
+    }
+  }
+}
